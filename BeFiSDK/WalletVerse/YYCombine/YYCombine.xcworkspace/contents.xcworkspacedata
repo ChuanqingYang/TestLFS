@@ -1,0 +1,2189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:WalletVerseUI"
+      name = "WalletVerseUI">
+      <Group
+         location = "group:WalletVerseUI"
+         name = "WalletVerseUI">
+         <Group
+            location = "group:UI"
+            name = "UI">
+            <Group
+               location = "group:Home"
+               name = "Home">
+               <FileRef
+                  location = "group:WVWalletHomePage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVWalletListPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVMainChainCoinListPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVWalletManagementPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVWalletChainListPage.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Trade"
+               name = "Trade">
+               <FileRef
+                  location = "group:WVTransactionSendPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVCoinMainPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVTransactionResultPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVTransactionGasFeePage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVTransactionReceivePage.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Mine"
+               name = "Mine">
+               <FileRef
+                  location = "group:WVSettingPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVMinePage.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:PreLaunch"
+               name = "PreLaunch">
+               <FileRef
+                  location = "group:WVVerifyMnemonicPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SelectChannelPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVWalletLaunchPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVGenerateMnemonicPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVImportWalletPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVSigninPage.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVCreateWalletPage.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Utls"
+            name = "Utls">
+            <Group
+               location = "group:ConstantEnum"
+               name = "ConstantEnum">
+               <FileRef
+                  location = "group:WVConstantEnum.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVConstant.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:UserDefaults"
+               name = "UserDefaults">
+               <FileRef
+                  location = "group:WVUserDefaults.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LanguageUtl"
+               name = "LanguageUtl">
+               <FileRef
+                  location = "group:LanguageManager.swift">
+               </FileRef>
+               <Group
+                  location = "group:Resource"
+                  name = "Resource">
+                  <FileRef
+                     location = "group:Localizable-jp.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Localizable-korea.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Localizable-spanish.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Localizable.strings">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Localizable-tc.strings">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:AppTheme"
+               name = "AppTheme">
+               <FileRef
+                  location = "group:ViewModifiers.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AppTheme.swift">
+               </FileRef>
+               <Group
+                  location = "group:Fonts"
+                  name = "Fonts">
+                  <FileRef
+                     location = "group:Poppins-Medium.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Poppins-Regular.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Poppins-Bold.ttf">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Poppins-SemiBold.ttf">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ViewModifier"
+            name = "ViewModifier">
+            <FileRef
+               location = "group:WVViewModifier.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:close"
+               name = "close">
+               <Group
+                  location = "group:icon_close_small.imageset"
+                  name = "icon_close_small.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_close_small@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_close_small@3x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:signin_ways"
+               name = "signin_ways">
+               <Group
+                  location = "group:signin_ways_facebook.imageset"
+                  name = "signin_ways_facebook.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_facebook@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_facebook@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:signin_ways_more.imageset"
+                  name = "signin_ways_more.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_more@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_more@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:signin_ways_twitter.imageset"
+                  name = "signin_ways_twitter.imageset">
+                  <FileRef
+                     location = "group:signin_ways_twitter@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_twitter@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:signin_ways_google.imageset"
+                  name = "signin_ways_google.imageset">
+                  <FileRef
+                     location = "group:signin_ways_google@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_google@3x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:signin_ways_med.imageset"
+                  name = "signin_ways_med.imageset">
+                  <FileRef
+                     location = "group:signin_ways_med@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_ways_med@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:arrow"
+               name = "arrow">
+               <Group
+                  location = "group:nav_back_opacity.imageset"
+                  name = "nav_back_opacity.imageset">
+                  <FileRef
+                     location = "group:nav_back_opacity@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nav_back_opacity@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:arrow_right.imageset"
+                  name = "arrow_right.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:nav_back.imageset"
+                  name = "nav_back.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nav_back@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:nav_back@3x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:tab"
+               name = "tab">
+               <Group
+                  location = "group:tab_mine_de.imageset"
+                  name = "tab_mine_de.imageset">
+                  <FileRef
+                     location = "group:tab_mine_de@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tab_mine_de@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:tab_wallet_de.imageset"
+                  name = "tab_wallet_de.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tab_wallet_de@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tab_wallet_de@3x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:tab_mine_se.imageset"
+                  name = "tab_mine_se.imageset">
+                  <FileRef
+                     location = "group:tab_mine_se@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tab_mine_se@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:tab_wallet_se.imageset"
+                  name = "tab_wallet_se.imageset">
+                  <FileRef
+                     location = "group:tab_wallet_se@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:tab_wallet_se@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AccentColor.colorset"
+               name = "AccentColor.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:info"
+               name = "info">
+               <Group
+                  location = "group:icon_alert.imageset"
+                  name = "icon_alert.imageset">
+                  <FileRef
+                     location = "group:icon_alert@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_alert@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_bell.imageset"
+                  name = "icon_bell.imageset">
+                  <FileRef
+                     location = "group:icon_bell@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_bell@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:result_pending.imageset"
+                  name = "result_pending.imageset">
+                  <FileRef
+                     location = "group:icon_pending.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_send.imageset"
+                  name = "icon_send.imageset">
+                  <FileRef
+                     location = "group:icon_rise@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_rise@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:icon_receive.imageset"
+                  name = "icon_receive.imageset">
+                  <FileRef
+                     location = "group:icon_fall@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_fall@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:result_fail.imageset"
+                  name = "result_fail.imageset">
+                  <FileRef
+                     location = "group:icon_fail.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:result_success.imageset"
+                  name = "result_success.imageset">
+                  <FileRef
+                     location = "group:result_success@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:result_success@2x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:button"
+               name = "button">
+               <Group
+                  location = "group:icon_search.imageset"
+                  name = "icon_search.imageset">
+                  <FileRef
+                     location = "group:icoN_search@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icoN_search@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_copy.imageset"
+                  name = "icon_copy.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_copy@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_copy@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_uncheck_small.imageset"
+                  name = "icon_uncheck_small.imageset">
+                  <FileRef
+                     location = "group:icon_uncheck_small@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_uncheck_small@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_more_gray.imageset"
+                  name = "icon_more_gray.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more_gray@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more_gray@2x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_setting_black.imageset"
+                  name = "icon_setting_black.imageset">
+                  <FileRef
+                     location = "group:icon_setting_black@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_setting_black@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:icon_check.imageset"
+                  name = "icon_check.imageset">
+                  <FileRef
+                     location = "group:icon_check@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_check@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_check_small.imageset"
+                  name = "icon_check_small.imageset">
+                  <FileRef
+                     location = "group:icon_check_small@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_check_small@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_add.imageset"
+                  name = "icon_add.imageset">
+                  <FileRef
+                     location = "group:icon_add@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_add@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_scan.imageset"
+                  name = "icon_scan.imageset">
+                  <FileRef
+                     location = "group:icon_scan@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_scan@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_menu.imageset"
+                  name = "icon_menu.imageset">
+                  <FileRef
+                     location = "group:icon_menu@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_menu@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_uncheck.imageset"
+                  name = "icon_uncheck.imageset">
+                  <FileRef
+                     location = "group:icon_uncheck@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_uncheck@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:icon_more.imageset"
+                  name = "icon_more.imageset">
+                  <FileRef
+                     location = "group:icon_more@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:mine"
+               name = "mine">
+               <Group
+                  location = "group:icon_setting.imageset"
+                  name = "icon_setting.imageset">
+                  <FileRef
+                     location = "group:icon_setting@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_setting@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:icon_export.imageset"
+                  name = "icon_export.imageset">
+                  <FileRef
+                     location = "group:icon_export@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_export@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:bg"
+               name = "bg">
+               <Group
+                  location = "group:icon_qr_bg.imageset"
+                  name = "icon_qr_bg.imageset">
+                  <FileRef
+                     location = "group:icon_qr_bg@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_qr_bg@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:wallet_head_bg.imageset"
+                  name = "wallet_head_bg.imageset">
+                  <FileRef
+                     location = "group:wallet_head_bg@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:wallet_head_bg@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <Group
+                  location = "group:select_channel_bg.imageset"
+                  name = "select_channel_bg.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:select_channel_bg@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:select_channel_bg@3x.png">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:coin_main_page_bg.imageset"
+                  name = "coin_main_page_bg.imageset">
+                  <FileRef
+                     location = "group:coin_main_page_bg@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:coin_main_page_bg@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:signin_bg.imageset"
+                  name = "signin_bg.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_bg@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:signin_bg@2x.png">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:placeholder"
+               name = "placeholder">
+               <Group
+                  location = "group:chain_eth.imageset"
+                  name = "chain_eth.imageset">
+                  <FileRef
+                     location = "group:chain_eth@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:chain_eth@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:coin_placeholder.imageset"
+                  name = "coin_placeholder.imageset">
+                  <FileRef
+                     location = "group:coin_placeholder@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:coin_placeholder@3x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bappicon"
+               name = "bappicon">
+               <Group
+                  location = "group:appicon_circle.imageset"
+                  name = "appicon_circle.imageset">
+                  <FileRef
+                     location = "group:appicon_cirle@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:appicon_cirle@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:appicon_name.imageset"
+                  name = "appicon_name.imageset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+                  <FileRef
+                     location = "group:appicon_name@3x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:appicon_name@2x.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Preview Content"
+            name = "Preview Content">
+            <Group
+               location = "group:Preview Assets.xcassets"
+               name = "Preview Assets.xcassets">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Extensions"
+            name = "Extensions">
+            <FileRef
+               location = "group:WVEnviromentExtension.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:CoreApi"
+            name = "CoreApi">
+            <FileRef
+               location = "group:CoreApiViewModel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:resource.bundle">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <Group
+            location = "group:Widgets"
+            name = "Widgets">
+            <FileRef
+               location = "group:WVCapusuleTextfiled.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVInfoView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVCoinListItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVSearchBar.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVNavBarView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVRectangleBorderTextfiled.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVOpNavBar.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVTransactionSendItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVSideMenuView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVBarPlaceholder.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WalletLaunchItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVWalletChainListItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVWalletListItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVMineListItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVMnemonicListView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVTabbarView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVTransactionGasFeeItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVFullShadowView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVCoinMainPageInfoView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SignInView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVBigButton.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVCoinMainPageOperateView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVMainChainCoinListCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVPaymentConfirmView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVTabbar.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVOtherSignInWaysView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVTxGasFeeSpecialItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVWalletListBar.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVSelectMainChainView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVAlertView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVPinInputView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVVerifyView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVPinKeyboardView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVFormItemView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVRectangleTextfiled.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVTransactionRecordCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVQRImageView.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:WalletVerseUIApp.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:WalletVerseUI.xcworkspace">
+      </FileRef>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Alamofire"
+            name = "Alamofire">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <FileRef
+                  location = "group:MultipartFormData.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RequestInterceptor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NetworkReachabilityManager.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParameterEncoder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLSessionConfiguration+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Session.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:OperationQueue+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Concurrency.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CachedResponseHandler.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StringEncoding+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RetryPolicy.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Protected.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParameterEncoding.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ServerTrustEvaluation.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AFError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RedirectHandler.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLEncodedFormEncoder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AlamofireExtended.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HTTPMethod.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:MultipartUpload.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLRequest+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLConvertible+URLRequestConvertible.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RequestTaskMap.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Validation.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Notifications.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AuthenticationInterceptor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Response.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Result+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Request.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HTTPHeaders.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EventMonitor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Combine.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ResponseSerialization.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SessionDelegate.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:Alamofire"
+               name = "Alamofire">
+               <FileRef
+                  location = "group:Alamofire.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-prefix.pch">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-WalletVerseUI"
+               name = "Pods-WalletVerseUI">
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-frameworks-Debug-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-frameworks-Release-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-frameworks-Debug-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-frameworks-Release-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseUI.release.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:SQLite.swift"
+               name = "SQLite.swift">
+               <FileRef
+                  location = "group:SQLite.swift.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift.debug.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ObjectMapper"
+               name = "ObjectMapper">
+               <FileRef
+                  location = "group:ObjectMapper-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper-dummy.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:SQLite.swift"
+            name = "SQLite.swift">
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <Group
+                  location = "group:SQLiteObjc"
+                  name = "SQLiteObjc">
+                  <Group
+                     location = "group:include"
+                     name = "include">
+                     <FileRef
+                        location = "group:SQLiteObjc.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SQLiteObjc.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fts3_tokenizer.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:SQLite"
+                  name = "SQLite">
+                  <Group
+                     location = "group:Core"
+                     name = "Core">
+                     <FileRef
+                        location = "group:Connection.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Backup.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Result.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Connection+Aggregation.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Blob.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Errors.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Statement.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Value.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Helpers.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Extensions"
+                     name = "Extensions">
+                     <FileRef
+                        location = "group:RTree.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTS4.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTS5.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Foundation.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SQLite.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Typed"
+                     name = "Typed">
+                     <FileRef
+                        location = "group:Query.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Coding.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Expression.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CoreFunctions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Collation.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CustomFunctions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DateAndTimeFunctions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Setter.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Operators.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Schema.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:AggregateFunctions.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:LICENSE.txt">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+         <Group
+            location = "group:ObjectMapper"
+            name = "ObjectMapper">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <FileRef
+                  location = "group:Mappable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CustomDateFormatTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HexColorTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ISO8601DateTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NSDecimalNumberTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Operators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EnumOperators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EnumTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DataTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Mapper.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Map.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FromJSON.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DictionaryTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TransformOperators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CodableTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ImmutableMappable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:IntegerOperators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TransformType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:MapError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DateTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DateFormatterTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ToJSON.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TransformOf.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README-CN.md">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+      <FileRef
+         location = "group:WalletVerseUI.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:WalletVerseCore"
+      name = "WalletVerseCore">
+      <FileRef
+         location = "group:archive.sh">
+      </FileRef>
+      <FileRef
+         location = "group:WalletVerseCore.xcworkspace">
+      </FileRef>
+      <Group
+         location = "group:archives"
+         name = "archives">
+         <Group
+            location = "group:WalletVerseCore.xcframework"
+            name = "WalletVerseCore.xcframework">
+            <Group
+               location = "group:ios-arm64_x86_64-simulator"
+               name = "ios-arm64_x86_64-simulator">
+               <Group
+                  location = "group:WalletVerseCore.framework"
+                  name = "WalletVerseCore.framework">
+                  <Group
+                     location = "group:_CodeSignature"
+                     name = "_CodeSignature">
+                     <FileRef
+                        location = "group:CodeResources">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Headers"
+                     name = "Headers">
+                     <FileRef
+                        location = "group:WalletVerseCore-Swift.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:WalletVerseCore.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:WalletVerseCore">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource.bundle">
+                  </FileRef>
+                  <Group
+                     location = "group:Modules"
+                     name = "Modules">
+                     <FileRef
+                        location = "group:module.modulemap">
+                     </FileRef>
+                     <Group
+                        location = "group:WalletVerseCore.swiftmodule"
+                        name = "WalletVerseCore.swiftmodule">
+                        <FileRef
+                           location = "group:x86_64-apple-ios-simulator.swiftinterface">
+                        </FileRef>
+                        <FileRef
+                           location = "group:x86_64-apple-ios-simulator.swiftdoc">
+                        </FileRef>
+                        <FileRef
+                           location = "group:arm64-apple-ios-simulator.swiftinterface">
+                        </FileRef>
+                        <FileRef
+                           location = "group:arm64-apple-ios-simulator.swiftdoc">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+            </Group>
+            <Group
+               location = "group:ios-arm64"
+               name = "ios-arm64">
+               <Group
+                  location = "group:WalletVerseCore.framework"
+                  name = "WalletVerseCore.framework">
+                  <Group
+                     location = "group:_CodeSignature"
+                     name = "_CodeSignature">
+                     <FileRef
+                        location = "group:CodeResources">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Headers"
+                     name = "Headers">
+                     <FileRef
+                        location = "group:WalletVerseCore-Swift.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:WalletVerseCore.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:WalletVerseCore">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource.bundle">
+                  </FileRef>
+                  <Group
+                     location = "group:Modules"
+                     name = "Modules">
+                     <FileRef
+                        location = "group:module.modulemap">
+                     </FileRef>
+                     <Group
+                        location = "group:WalletVerseCore.swiftmodule"
+                        name = "WalletVerseCore.swiftmodule">
+                        <FileRef
+                           location = "group:arm64-apple-ios.swiftinterface">
+                        </FileRef>
+                        <FileRef
+                           location = "group:arm64-apple-ios.swiftdoc">
+                        </FileRef>
+                     </Group>
+                  </Group>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ios_devices.xcarchive">
+         </FileRef>
+         <FileRef
+            location = "group:ios_simulators.xcarchive">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:WalletVerseCore.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Alamofire"
+            name = "Alamofire">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Source"
+               name = "Source">
+               <FileRef
+                  location = "group:MultipartFormData.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RequestInterceptor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NetworkReachabilityManager.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParameterEncoder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLSessionConfiguration+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Session.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:OperationQueue+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Concurrency.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CachedResponseHandler.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:StringEncoding+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RetryPolicy.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Protected.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ParameterEncoding.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ServerTrustEvaluation.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AFError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RedirectHandler.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLEncodedFormEncoder.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AlamofireExtended.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HTTPMethod.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:MultipartUpload.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLRequest+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLConvertible+URLRequestConvertible.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RequestTaskMap.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Validation.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Notifications.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AuthenticationInterceptor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Response.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Result+Alamofire.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Request.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HTTPHeaders.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EventMonitor.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Combine.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ResponseSerialization.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SessionDelegate.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:Alamofire"
+               name = "Alamofire">
+               <FileRef
+                  location = "group:Alamofire.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Alamofire-prefix.pch">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-WalletVerseCore"
+               name = "Pods-WalletVerseCore">
+               <FileRef
+                  location = "group:Pods-WalletVerseCore-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-WalletVerseCore.release.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:SQLite.swift"
+               name = "SQLite.swift">
+               <FileRef
+                  location = "group:SQLite.swift.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SQLite.swift.debug.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:ObjectMapper"
+               name = "ObjectMapper">
+               <FileRef
+                  location = "group:ObjectMapper-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:ObjectMapper-dummy.m">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:SQLite.swift"
+            name = "SQLite.swift">
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <Group
+                  location = "group:SQLiteObjc"
+                  name = "SQLiteObjc">
+                  <Group
+                     location = "group:include"
+                     name = "include">
+                     <FileRef
+                        location = "group:SQLiteObjc.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:SQLiteObjc.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fts3_tokenizer.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:SQLite"
+                  name = "SQLite">
+                  <Group
+                     location = "group:Core"
+                     name = "Core">
+                     <FileRef
+                        location = "group:Connection.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Backup.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Result.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Connection+Aggregation.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Blob.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Errors.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Statement.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Value.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Helpers.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Extensions"
+                     name = "Extensions">
+                     <FileRef
+                        location = "group:RTree.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTS4.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FTS5.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:Foundation.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SQLite.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Typed"
+                     name = "Typed">
+                     <FileRef
+                        location = "group:Query.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Coding.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Expression.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CoreFunctions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Collation.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CustomFunctions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DateAndTimeFunctions.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Setter.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Operators.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Schema.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:AggregateFunctions.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:LICENSE.txt">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+         </Group>
+         <Group
+            location = "group:ObjectMapper"
+            name = "ObjectMapper">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <FileRef
+                  location = "group:Mappable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CustomDateFormatTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:HexColorTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ISO8601DateTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:URLTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:NSDecimalNumberTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Operators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EnumOperators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:EnumTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DataTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Mapper.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Map.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:FromJSON.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DictionaryTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TransformOperators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CodableTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ImmutableMappable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:IntegerOperators.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TransformType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:MapError.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DateTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DateFormatterTransform.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ToJSON.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:TransformOf.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README-CN.md">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:WalletVerseCore"
+         name = "WalletVerseCore">
+         <Group
+            location = "group:Utls"
+            name = "Utls">
+            <Group
+               location = "group:HTTPUtls"
+               name = "HTTPUtls">
+               <FileRef
+                  location = "group:WVAPICoreManager.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVAPIRequest.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVAPIConfig.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:WVDataExtension.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVDeviceUtls.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVCookieManager.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVDateExtension.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVCommonUtls.swift">
+            </FileRef>
+            <FileRef
+               location = "group:WVDBManager.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Webview"
+            name = "Webview">
+            <FileRef
+               location = "group:resource.bundle">
+            </FileRef>
+            <FileRef
+               location = "group:WVWebViewController.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:WalletVerseCore.h">
+         </FileRef>
+         <Group
+            location = "group:Models"
+            name = "Models">
+            <Group
+               location = "group:JSModel"
+               name = "JSModel">
+               <FileRef
+                  location = "group:WVMnemonicModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVChainsModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVShard.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVReceiptModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVTransactionModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVInitModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVGasFeeModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVAccountModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVRequesJSModel.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:DBModel"
+               name = "DBModel">
+               <FileRef
+                  location = "group:WVIdentityModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVCoinInWalletModel.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:APIModel"
+               name = "APIModel">
+               <FileRef
+                  location = "group:WVCommonModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVTransactionRecordModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVUserProfileModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVMainChainModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:WVCoinModel.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:BaseModel"
+               name = "BaseModel">
+               <FileRef
+                  location = "group:BaseResponse.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:BaseModel.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:BaseJSModel.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Manager"
+            name = "Manager">
+            <FileRef
+               location = "group:WVCoreManager.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:API"
+            name = "API">
+            <FileRef
+               location = "group:BeFi.swift">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:combine.sh">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+   </Group>
+</Workspace>
